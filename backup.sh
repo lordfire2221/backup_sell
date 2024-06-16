@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Variables
-DB_USER="your_db_user"
-DB_PASSWORD="your_db_password"
-DB_NAME="your_db_name"
-BACKUP_DIR="/path/to/backup/directory"
+DB_USER="mspr"
+DB_PASSWORD="#123Cristaline"
+DB_NAME="db_mspr"
+BACKUP_DIR="/home/mspr/sauvegarde"
 TIMESTAMP=$(date +"%Y%m%d%H%M%S")
 BACKUP_FILE="$BACKUP_DIR/$DB_NAME-$TIMESTAMP.sql"
 
