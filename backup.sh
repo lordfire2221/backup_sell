@@ -7,7 +7,6 @@ DB_NAME="db_mspr"
 BACKUP_DIR="/home/mspr/sauvegarde"
 TIMESTAMP=$(date +"%Y%m%d%H%M%S")
 BACKUP_FILE="$BACKUP_DIR/$DB_NAME-$TIMESTAMP.sql"
-
 # Commande mysqldump
 /usr/bin/mysqldump -u $DB_USER -p$DB_PASSWORD $DB_NAME > $BACKUP_FILE
 
