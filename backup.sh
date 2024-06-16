@@ -16,3 +16,4 @@ if [ $? -eq 0 ]; then
 else
   echo "Backup failed"
 fi
+0 */2 * * * /chemin/vers/le/dossier/de/sauvegarde/backup_db.sh
