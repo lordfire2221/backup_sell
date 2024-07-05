@@ -14,7 +14,7 @@ INSERT INTO T_Client(Id_Client, Nom, Prenom, Adresse, Siret, Contact_principal) 
 ('Client1-3', 'Nom3', 'Prenom3', 'Adresse3', 55327987900674, '0695271615');  -- Correction de l'ID Client pour éviter les doublons
 
 -- Insertion dans T_Prestataire
-INSERT INTO T_Prestataire (Id_Prestataire, Nom_Presta, Adresse, Siret, Contact_principal) VALUES
+INSERT INTO T_Prestataire (Id_Prestataire, Nom_Prestataire, Adresse, Siret, Contact_principal) VALUES
 ('EF0C4B81', 'Presta1', 'Adresse1', 123456789, 'Contact1'),
 ('EF0C4B82', 'Presta2', 'Adresse2', 223456789, 'Contact2'),
 ('EF0C4B83', 'Presta3', 'Adresse3', 323456789, 'Contact3'),
