@@ -9,9 +9,9 @@ INSERT INTO T_Instance(Num_serie,Version_instance,Version_OS,Script_installe,Eta
 
 -- Insertion dans T_Client
 INSERT INTO T_Client(Id_Client,Nom,Prenom,Adresse,Siret,Contact_principal) VALUES 
-('Client1-1', 'Nom1', 'Prenom1', 'Adresse1', 'Final', 55327987900672, '0695271613'),
-('Client1-2', 'Nom2', 'Prenom3', 'Adresse1', 'Final', 55327987900673, '0695271623'), 
-('Client1-2', 'Nom2', 'Prenom3', 'Adresse1', 'Final', 55327987900674, '0695271615');
+('Client1-1', 'Nom1', 'Prenom1', 'Adresse1', 55327987900672, '0695271613'),
+('Client1-2', 'Nom2', 'Prenom3', 'Adresse1' , 55327987900673, '0695271623'), 
+('Client1-2', 'Nom2', 'Prenom3', 'Adresse1', 55327987900674, '0695271615');
 
 -- Insertion dans T_Prestataire
 INSERT INTO T_Prestataire (Id_Prestataire,Nom_Presta, Adresse, Siret, Contact_principal) VALUES
