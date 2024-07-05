@@ -1,11 +1,11 @@
 USE db_mspr;
 
 -- Insertion dans T_Instance
-INSERT INTO T_Instance(Num_serie,Version_OS,Script_installe,Etat,Date_peremption) VALUES 
-('EF0C4B81-D326-42F0-9B90-888CC5C917F8', 'V1', 'Script2.3', 'Bon', '2025-04-17'),
-('EF0C4B81-D326-42F0-9B90-888CC5C917F9', 'V3', 'Script2.3', 'Bon', '2050-04-17'),
-('EF0C4B81-D326-43F0-9B90-888CC5C917F8', 'V1', 'Script4.3', 'Bon', '2065-04-17'),
-('EF0C4B81-G326-42F0-9B90-888CC5C917F8', 'V3', 'Script8.3', 'Bon', '2075-04-17');
+INSERT INTO T_Instance(Num_serie,Version_instance,Version_OS,Script_installe,Etat,Date_peremption) VALUES 
+('EF0C4B81-D326-42F0-9B90-888CC5C917F8','Instance1.1', 'V1', 'Script2.3', 'Bon', '2025-04-17'),
+('EF0C4B81-D326-42F0-9B90-888CC5C917F9','Instance1.2', 'V3', 'Script2.3', 'Bon', '2050-04-17'),
+('EF0C4B81-D326-43F0-9B90-888CC5C917F8','Instance1.3.2', 'V1', 'Script4.3', 'Bon', '2065-04-17'),
+('EF0C4B81-G326-42F0-9B90-888CC5C917F8','Instance1.3.4', 'V3', 'Script8.3', 'Bon', '2075-04-17');
 
 -- Insertion dans T_Client
 INSERT INTO T_Client(Id_Client,Nom,Prenom,Adresse,Siret,Contact_principal) VALUES 
