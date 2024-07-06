@@ -23,7 +23,7 @@ INSERT INTO T_Prestataire (Id_Prestataire, Nom_Prestataire, Adresse, Siret, Cont
 ('EF0C4B86', 'NFL IT', 'Adresse6', 623456789, 'Contact6');
 
 -- Insertion dans T_Technicien
-INSERT INTO T_Technicien(Id_Technicien, NomTechnicien, PrenomTechnicien, Role) VALUES 
+INSERT INTO T_Technicien(Id_Technicien, NomTechnicien, PrenomTechnicien, RoleTechnicien) VALUES 
 ('Technicien-D321', 'NomTechnicien1', 'PrenomTechnicien1', ''),
 ('Technicien-D322', 'NomTechnicien2', 'PrenomTechnicien2', ''),
 ('Technicien-D323', 'NomTechnicien3', 'PrenomTechnicien3', ''),
